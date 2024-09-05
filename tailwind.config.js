@@ -6,11 +6,15 @@ module.exports = {
       colors: {
         'sidebar-bg-color': '#FBF7F4', 
         'sidebar-logout-bg-color': '#FCDEC6', 
+        'sidebar-logout-hover-bg-color': '#FBF7F4',
+        'sidebar-hover-button-color': '#FCDEC6', 
+        'sidebar-hover-button-border-color': '#10B981', 
       },
       fontFamily: {
         'sidebar-logo-font': ['Playwrite CU', 'sans-serif'], 
         'management-font': ['Poppins', 'sans-serif'], 
       },
+      
      },
    },
    variants: {

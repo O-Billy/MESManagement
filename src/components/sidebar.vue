@@ -14,72 +14,107 @@
 
             <div class="overflow-hidden">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
-                <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
+                <nav class="flex min-w-[220px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/dashboard-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-black outline-none text-start bg-sidebar-hover-button-color  shadow-lg ml-0">
+                        <img src="../assets/icon/sidebar/dashboard-active-icon.png" alt="brand" class="w-6 h-6 z-10" />
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed z-10">
                             Dashboard
                         </p>
-                    </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/application-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
+
+                    </div>
+                    
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/application-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/application-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Application
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/database-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/database-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/database-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Database
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/cloud-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/cloud-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/cloud-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Cloud
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/report-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/report-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/report-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Report
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/setting-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/setting-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/setting-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Setting
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/conversation-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/conversation-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/conversation-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Conversation
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
 
-                    <div role="button"
-                    class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                        <img src="../assets/icon/sidebar/help-icon.png" alt="brand" class="w-6 h-6" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed text-blue-gray-900">
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/help-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/help-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Help ?
                         </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
                     </div>
-        
+
                 </nav>
                 </div>
             </div>
@@ -88,12 +123,12 @@
             <hr class="my-2 border-blue-gray-50" />
             
             <div class="logout w-55 h-100">
-                <div class="mt-[5rem] bg-gradient-to-l bg-sidebar-logout-bg-color grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md">
+                <div class="mt-[4.0rem] bg-gradient-to-l bg-sidebar-logout-bg-color grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md">
                     <div class="col-span-2 text-lg font-bold capitalize rounded-md text-center">
-                        <img src="../assets/img/sidebar/missile.png" class=" mt-[-7.5rem]" alt="">
+                        <img src="../assets/img/sidebar/missile.png" class=" mt-[-7.7rem]" alt="">
                         <p class="font-management-font text-sm font-normal normal-case ml-2">Do you want to logout ?</p>
                         <button
-                        class="mt-2 font-management-font flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-white-400 backdrop-blur-md font-normal isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
+                        class="mt-2 font-management-font flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-white-400 backdrop-blur-md font-normal isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-sidebar-logout-hover-bg-color hover:text-black before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
                         type="submit"
                         >
                         Logout
