@@ -4,11 +4,16 @@ module.exports = {
    theme: {
      extend: {
       colors: {
+        //#region Sidebar
         'sidebar-bg-color': '#FBF7F4', 
         'sidebar-logout-bg-color': '#FCDEC6', 
         'sidebar-logout-hover-bg-color': '#FBF7F4',
         'sidebar-hover-button-color': '#FCDEC6', 
         'sidebar-hover-button-border-color': '#10B981', 
+        //#endregion
+        //#region Narbar
+        
+        //#endregion
       },
       fontFamily: {
         'sidebar-logo-font': ['Playwrite CU', 'sans-serif'], 
