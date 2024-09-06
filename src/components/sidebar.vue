@@ -16,10 +16,22 @@
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                 <nav class="flex min-w-[220px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
 
-                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-black outline-none text-start bg-sidebar-hover-button-color  shadow-lg ml-0">
-                        <img src="../assets/icon/sidebar/dashboard-active-icon.png" alt="brand" class="w-6 h-6 z-10" />
-                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed z-10">
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                        <img src="../assets/icon/sidebar/dashboard-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
+                        <img src="../assets/icon/sidebar/dashboard-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
+
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed ">
                             Dashboard
+                        </p>
+                        <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
+                            <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
+                        </span>
+                    </div>
+
+                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-black outline-none text-start bg-sidebar-hover-button-color  shadow-lg ml-0">
+                        <img src="../assets/icon/sidebar/application-active-icon.png" alt="brand" class="w-6 h-6 z-10" />
+                        <p class="grid ml-[10px] place-items-center font-management-font font-normal text-base antialiased leading-relaxed z-10">
+                            Application
                         </p>
 
                         <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full z-10">
@@ -28,7 +40,7 @@
 
                     </div>
                     
-                    <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
+                    <!-- <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
                         <img src="../assets/icon/sidebar/application-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />
                         <img src="../assets/icon/sidebar/application-active-icon.png" alt="brand hover" class="w-6 h-6 z-10 hidden group-hover:block" />
 
@@ -38,7 +50,7 @@
                         <span class="absolute right-3 flex items-center justify-center w-8 h-8 bg-white rounded-full transition-all opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-active:opacity-100 z-10">
                             <img src="../assets/icon/sidebar/button-active-icon.png" alt="brand" class="w-4 h-4 z-10" />
                         </span>
-                    </div>
+                    </div> -->
 
                     <div class="relative flex items-center w-full p-3 leading-tight transition-all rounded-none rounded-r-3xl text-gray-400 outline-none text-start group hover:bg-sidebar-hover-button-color hover:bg-opacity-90 hover:text-black focus:bg-sidebar-hover-button-color focus:bg-opacity-90 focus:text-black active:bg-sidebar-hover-button-color active:bg-opacity-90 active:text-black ml-0">
                         <img src="../assets/icon/sidebar/database-icon.png" alt="brand" class="w-6 h-6 z-10 group-hover:hidden" />

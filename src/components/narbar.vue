@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="h-[86px]">
       <div class="relative" id="input">
         <input
           value=""
@@ -17,8 +17,8 @@
         <div class="absolute top-0 right-3 flex items-center gap-4">
           <div class="flex items-center gap-4">
             <div class="flex flex-col text-right font-management-font">
-              <p class="text-sm text-black font-sans font-medium" >Billy Su</p>
-              <p class="text-xs text-gray-500 font-sidebar-logo-font">Administrator</p>
+              <p class="text-[15px] text-black font-sans font-medium" >Billy Su</p>
+              <p class="text-xs text-gray-500 font-sidebar-logo-font">Design & Developer</p>
             </div>
 
             <img

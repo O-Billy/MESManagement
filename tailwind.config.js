@@ -11,9 +11,7 @@ module.exports = {
         'sidebar-hover-button-color': '#FCDEC6', 
         'sidebar-hover-button-border-color': '#10B981', 
         //#endregion
-        //#region Narbar
-        
-        //#endregion
+
       },
       fontFamily: {
         'sidebar-logo-font': ['Playwrite CU', 'sans-serif'], 
