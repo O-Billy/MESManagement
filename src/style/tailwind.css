@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Playwrite CU';
+    src: url('../assets/font/Playwrite_CU/PlaywriteCU-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../assets/font/Playwrite_CU,Poppins/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 25px rgba(228, 111, 78, 0.5);
+}
+
+  
+  
