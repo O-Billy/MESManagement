@@ -17,15 +17,9 @@
     </div>
 
     <div class="body-main h-full">
-<<<<<<< HEAD
-        <div class="m-[22px] h-[77vh] bg-white rounded-3xl custom-shadow">
-
-
-=======
         <div class="m-[22px] h-[77vh] lg:h-[129vh] bg-white rounded-3xl custom-shadow">
 
             <!-- Tab Menu -->
->>>>>>> wfh
             <div class="border-b border-gray-200 dark:border-gray-700">
                 <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
                     <li class="me-2">
@@ -70,8 +64,6 @@
                     </li>
                 </ul>
             </div>
-<<<<<<< HEAD
-=======
             <!-- Tab Menu End -->
             
             <!-- Action bar -->
@@ -165,7 +157,6 @@
                 </div>
             </div>
             <!-- Action bar end -->
->>>>>>> wfh
 
         </div>
     </div>

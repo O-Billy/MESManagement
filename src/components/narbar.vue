@@ -14,11 +14,7 @@
         >
           Typing ... + Enter to Search !
         </label>
-<<<<<<< HEAD
-        <div class="absolute top-0 right-3 flex items-center gap-4">
-=======
         <div class="absolute top-0 lg:mt-[-10px] right-3 flex items-center gap-4">
->>>>>>> wfh
           <div class="flex items-center gap-4">
             <div class="flex flex-col text-right font-management-font">
               <p class="text-[15px] text-black font-sans font-medium" >Billy Su</p>
@@ -100,11 +96,7 @@
           </ul>
         </div>
       </div>
-<<<<<<< HEAD
-      <hr class="my-2 border-blue-gray-50 mt-[24px]" />
-=======
       <hr class="my-2 border-blue-gray-50 mt-[24px] lg:mt-[16px]" />
->>>>>>> wfh
     </div>
   </template>
   

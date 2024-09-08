@@ -7,13 +7,8 @@
             Management
             </h5>
         </div>
-<<<<<<< HEAD
-        <hr class="my-2 border-blue-gray-50" />
-        <nav class="flex min-w-[240px] flex-col gap-0.1 p-2 ml-[-16px] font-management-font text-base font-normal text-blue-gray-700">
-=======
         <hr class="my-2 border-blue-gray-50 lg:mt-[0px]" />
         <nav class="flex min-w-[240px] flex-col lg:mt-[-12px] gap-0.1 p-2 ml-[-16px] font-management-font text-base font-normal text-blue-gray-700">
->>>>>>> wfh
             
             <div class="relative block w-full">
 
