@@ -1,6 +1,13 @@
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
    darkMode: false, 
+<<<<<<< HEAD
+=======
+   mode: 'jit',
+   content: [
+    "./src/**/*.{html,js,vue}", 
+  ],
+>>>>>>> wfh
    theme: {
      extend: {
       colors: {
@@ -17,11 +24,31 @@ module.exports = {
         'sidebar-logo-font': ['Playwrite CU', 'sans-serif'], 
         'management-font': ['Poppins', 'sans-serif'], 
       },
+<<<<<<< HEAD
+=======
+
+      fontSize: {
+        '10px': '10px',
+        '11px': '11px',
+        '12px': '12px',
+        '14px': '14px',
+        '18px': '18px',
+        '20px': '20px',
+        '22px': '22px',
+      }
+>>>>>>> wfh
       
      },
    },
    variants: {
+<<<<<<< HEAD
      extend: {},
    },
+=======
+    extend: {
+      fontSize: ['responsive'],
+    },
+  },
+>>>>>>> wfh
    plugins: [],
  }
