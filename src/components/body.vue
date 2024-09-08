@@ -17,9 +17,9 @@
     </div>
 
     <div class="body-main h-full">
-        <div class="m-[22px] h-[77vh] bg-white rounded-3xl custom-shadow">
+        <div class="m-[22px] h-[77vh] lg:h-[129vh] bg-white rounded-3xl custom-shadow">
 
-
+            <!-- Tab Menu -->
             <div class="border-b border-gray-200 dark:border-gray-700">
                 <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
                     <li class="me-2">
@@ -64,6 +64,99 @@
                     </li>
                 </ul>
             </div>
+            <!-- Tab Menu End -->
+            
+            <!-- Action bar -->
+            <div class="actionbar lg:m-[10px]">
+                <div class="actionbar-title flex justify-between">
+                    <div class="actionbar-left">
+                        <p><span class="text-gray-400">Application</span> / List of program & website(83)</p>
+                        <p class="text-11px text-gray-400">List of applications avaiable on MES system.</p>
+                    </div>
+                    <div class="actionbar-right">
+ 
+                        <button
+                        class="rounded-lg relative w-36 h-8 cursor-pointer flex items-center border border-green-500 bg-green-500 group hover:bg-green-500 active:bg-green-500 active:border-green-500"
+                        >
+                        <span
+                            class="text-gray-200 font-semibold text-14px ml-10 transform group-hover:translate-x-20 transition-all duration-300"
+                            >Add New Item</span
+                        >
+                        <span
+                            class="absolute left-0 h-full w-10 rounded-lg bg-green-500 flex items-center justify-center transform group-hover:translate-x-0 group-hover:w-full transition-all duration-300"
+                        >
+                            <svg
+                            class="svg w-8 text-white"
+                            fill="none"
+                            height="24"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <line x1="12" x2="12" y1="5" y2="19"></line>
+                            <line x1="5" x2="19" y1="12" y2="12"></line>
+                            </svg>
+                        </span>
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="actionbar-search lg:mt-[10px] flex justify-between">
+                    <div class="actionbar-search-left">
+                        <form class="form relative ">
+                            <button class="absolute left-2 -translate-y-1/2 top-1/2 p-1">
+                                <svg
+                                width="17"
+                                height="16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                role="img"
+                                aria-labelledby="search"
+                                class="w-5 h-5 text-gray-700"
+                                >
+                                <path
+                                    d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9"
+                                    stroke="currentColor"
+                                    stroke-width="1.333"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                                </svg>
+                            </button>
+                            <input
+                                class="input rounded-md px-8 py-3 border-2 
+                                        bg-[#DFE6EE]
+                                        lg:text-12px
+                                        lg:w-[111%] h-[6vh]
+                                        border-transparent focus:outline-none focus:border-blue-500 
+                                        placeholder-gray-400 transition-all duration-300 shadow-3xl"
+                                placeholder="Search Applications ..."
+                                type="text"
+                            />
+                        </form>
+                    </div>
+                    <div class="actionbar-search-right">
+                        <form class="max-w-sm mx-auto">
+                            <select id="countries" class=" lg:h-[6.6vh] lg:mt-[-13px] lg:text-12px bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>--- Select Privilege ---</option>
+                                <option value="US">Admin | IT</option>
+                                <option value="CA">QA | PQE | IPQC</option>
+                                <option value="FR">PD-SI | IE</option>
+                                <option value="DE">PM | MPM | PC</option>
+                            </select>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Action bar end -->
 
         </div>
     </div>
