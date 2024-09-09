@@ -2,7 +2,7 @@
   <div class="app-home flex">
     <div class="sidebar w-[12.5%] bg-transparent"><sidebar_ /></div> 
     <div class="navbar w-[88%] bg-transparent 
-                lg:ml-[6%]
+                lg:ml-[0%]
                 ">
       <div class="h-[86px]">
         <narbar_ />
